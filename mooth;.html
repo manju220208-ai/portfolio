@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Manjunadha | Portfolio</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#020617);
+color:white;
+}
+
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin:0 15px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+
+
+.social{
+display:flex;
+gap:18px;
+}
+
+.social a{
+color:white;
+font-size:20px;
+transition:0.3s;
+}
+
+.social a:hover{
+color:#38bdf8;
+transform:scale(1.2);
+}
+
+
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 60px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero-text span{
+color:#38bdf8;
+}
+
+.hero-text p{
+font-size:22px;
+margin-bottom:30px;
+color:#cbd5f5;
+}
+
+.btn{
+padding:14px 28px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+box-shadow:0 0 12px #38bdf8;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#0ea5e9;
+}
+
+.hero img{
+width:320px;
+height:320px;
+object-fit:cover;
+border-radius:50%;
+box-shadow:0 0 30px #38bdf8;
+}
+
+
+
+section{
+padding:90px 60px;
+text-align:center;
+}
+
+section h2{
+font-size:38px;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+section p{
+max-width:700px;
+margin:auto;
+line-height:1.6;
+}
+
+.about-img{
+width:420px;
+margin-top:35px;
+border-radius:15px;
+box-shadow:0 0 25px #38bdf8;
+}
+
+
+
+.skills{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:40px;
+}
+
+.skill{
+background:#1e293b;
+padding:18px 30px;
+border-radius:10px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#38bdf8;
+transform:translateY(-5px);
+}
+
+
+
+.projects{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:50px;
+}
+
+.project-card{
+background:#1e293b;
+width:280px;
+border-radius:14px;
+overflow:hidden;
+transition:0.4s;
+}
+
+.project-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.project-card h3{
+margin:15px 0 8px;
+}
+
+.project-card p{
+padding:0 15px 15px;
+}
+
+.project-card a{
+display:inline-block;
+margin-bottom:18px;
+background:#38bdf8;
+padding:8px 16px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+}
+
+.project-card:hover{
+transform:translateY(-12px);
+box-shadow:0 0 25px #38bdf8;
+}
+
+
+.contact p{
+margin:10px 0;
+}
+
+
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+margin-top:40px;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Manjunadha</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="social">
+
+<a href="https://github.com/manju220208-ai"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/mummadi-manjunadha-reddy-6209053b5/"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.instagram.com/manjunadha9876/"><i class="fab fa-instagram"></i></a>
+
+</div>
+
+</nav>
+
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Hello I'm <span>Manjunadha</span></h1>
+
+<p>Computer Science Engineering Student | Web Developer</p>
+
+<a href="https://github.com/" class="btn">View My Projects</a>
+
+</div>
+
+<img src="C:\Users\manju\OneDrive\Pictures\Downloads\WhatsApp Image 2026-03-16 at 9.17.19 PM.jpeg">
+
+</section>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am passionate about web development and creating modern
+websites using HTML and CSS. I enjoy designing creative
+and responsive user interfaces.
+</p>
+
+<img class="about-img"
+src="">
+
+</section>
+
+
+<section id="skills">
+
+<h2>My Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Web Design</div>
+<div class="skill">Responsive Design</div>
+<div class="skill">UI Design</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d">
+
+<h3>Portfolio Website</h3>
+
+<p>Personal portfolio website built using HTML and CSS.</p>
+
+<a href="https://github.com/">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c">
+
+<h3>Landing Page</h3>
+
+<p>Creative responsive landing page design.</p>
+
+<a href="https://github.com/">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+<h3>Dashboard UI</h3>
+
+<p>Modern dashboard interface design.</p>
+
+<a href="https://github.com/">View Project</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+<h2>Contact</h2>
+
+<p>Email : manjunadha@email.com</p>
+<p>contact:+91 9440146240</p>
+<p>GitHub : github.com/manjunadha</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Manjunadha Portfolio</p>
+
+</footer>
+
+</body>
+</html>
+
